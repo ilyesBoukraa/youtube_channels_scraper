@@ -5,7 +5,7 @@ youtube_channels_scraper is a Python script designed to scrape data from YouTube
 
 ## Features
 1. **Web Scraping with Selenium:** The script uses Selenium to interact with the YouTube website, simulating human-like behavior to access the channel pages and gather data.
-2. **Browser Selection:** Microsoft Edge is used as the web browser for scraping, providing compatibility with the website's features and ensuring reliable results.
+2. **Browser Selection:** Microsoft Edge is used as the web browser for scraping, providing compatibility with the website's features and ensuring reliable results, but mostly because it is just my default browser.
 3. **Filter by Popular Videos:** The script navigates to the videos section of the channel and filters them by popular videos. This allows you to obtain data from the most viewed videos easily.
 4. **Infinite Scrolling Handling:** Since YouTube uses infinite scrolling to display videos, this project implements a mechanism to automatically scroll down to the end of the channel's video list, ensuring comprehensive data retrieval.
 5. **Data Extraction:** The script extracts crucial information, including video titles, number of views, and dates (e.g., "2 years ago").
