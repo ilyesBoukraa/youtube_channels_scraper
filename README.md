@@ -3,6 +3,8 @@
 ## Project Overview
 youtube_channels_scraper is a Python script designed to scrape data from YouTube channels. As YouTube is a heavy Javascript website, this project utilizes __Selenium__, a powerful web automation library, to navigate the website and extract relevant information from the desired channels.
 
+![parsing_data](imgs/youtube_scraper.png)
+
 ## Features
 1. **Web Scraping with Selenium:** The script uses Selenium to interact with the YouTube website, simulating human-like behavior to access the channel pages and gather data.
 2. **Browser Selection:** Microsoft Edge is used as the web browser for scraping, providing compatibility with the website's features and ensuring reliable results, but mostly because it is just my default browser.
