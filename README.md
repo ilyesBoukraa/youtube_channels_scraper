@@ -21,8 +21,7 @@ youtube_channels_scraper is a Python script designed to scrape data from YouTube
 5. Run the script: `python youtube_channel_scraper.py "<Channel URL>" "<File Name.csv>"`
     - **Channel URL:** Enter the URL of the YouTube channel you want to scrape.
     - **File Name:** Enter the desired file name for the CSV file to save the scraped data. (e.g., `my_scraped_data.csv`)
-    - **Example:** `python youtube_channel_scraper.py "https://www.youtube.com/@something" "your_file_name.csv"`.
+    - **Example:** `python youtube_channel_scraper.py "https://www.youtube.com/@johnnyharris" "johnny_harris.csv"`.
     - **Note:** if you didn't specify a file name, output.csv will be used as the new file name instead.   
-
 6. After providing the inputs, sit back, and let the script handle the scraping process.
 7. Once completed, the script will save the data to the specified CSV file in the same directory.
